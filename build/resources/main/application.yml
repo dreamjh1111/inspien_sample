@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/weather_db
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+openweatherapi:
+  key: 1f1defbb57054565d1fe6579254ffe9c
