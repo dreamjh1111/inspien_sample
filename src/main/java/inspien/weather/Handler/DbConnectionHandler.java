@@ -35,5 +35,4 @@ public class DbConnectionHandler {
 
         return weatherDataRepository.save(weatherData);
     }
-
 }

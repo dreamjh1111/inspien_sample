@@ -70,7 +70,7 @@ public class WeatherService {
 
         for (String city : cities) {
             try {
-                var weatherData = getWeatherDataAtOpenAPI(city);
+                var weatherData = getCurrentWeatherData(city);
             } catch (Exception e) {
                 System.out.println(city + " 날씨 데이터 저장 중 오류 발생: " + e.getMessage());
             }
