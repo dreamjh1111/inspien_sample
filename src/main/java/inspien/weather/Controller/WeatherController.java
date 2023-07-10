@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.CompletableFuture;
 
+/**
+ * URL: https://inspientest.duckdns.org/weather/{city}
+ * Method: GET
+ * 해당 도시의 날씨정보를 조회
+ */
 @RestController
 @RequestMapping("/weather")
 public class WeatherController {

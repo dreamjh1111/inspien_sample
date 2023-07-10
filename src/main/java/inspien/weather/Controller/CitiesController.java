@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/**
+ * URL: https://inspientest.duckdns.org/citylist
+ * Method: GET
+ * 날씨 조회가 가능한 도시 리스트를 조회
+ */
 @RestController
 @RequestMapping("/citylist")
 public class CitiesController {
@@ -23,3 +28,5 @@ public class CitiesController {
         return citiesListRepository.findAll();
     }
 }
+
+

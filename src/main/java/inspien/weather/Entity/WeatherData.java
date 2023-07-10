@@ -16,6 +16,7 @@ public class WeatherData {
     private String city;
     private Double temp;
     private Double feels_like_temp;
+    private Integer humidity;
     private String Weather;
     private LocalDateTime createdAt;
 }
